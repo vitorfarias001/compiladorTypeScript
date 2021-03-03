@@ -1,29 +1,29 @@
 "use strict";
 //strings
-var names = 'Vitor';
+let names = 'Vitor';
 console.log(names);
 //numbers
-var age = 22;
+let age = 22;
 //age  = 'Vitor'
 age = 22.1;
 console.log(age);
 //boolean
-var possesHobbies = false;
+let possesHobbies = false;
 //possesHobbies = 1
 console.log(possesHobbies);
 //Explicit Types
-var myAge;
+let myAge;
 myAge = 22;
 console.log(typeof myAge);
 console.log(typeof myAge);
 //array
-var hobbies = ['Cook , Games'];
+let hobbies = ['Cook , Games'];
 console.log(hobbies[0]);
 console.log(typeof hobbies);
 hobbies = [100, 200, 300];
 console.log(hobbies);
 // tuples
-var address = ["Maria Julia da luz", 502];
+let address = ["Maria Julia da luz", 502];
 console.log(address);
 // Enums
 var color;
@@ -35,13 +35,13 @@ var color;
     color[color["yellow"] = 12] = "yellow";
     color[color["black"] = 100] = "black";
 })(color || (color = {}));
-var myColor = color.green;
+let myColor = color.green;
 console.log(myColor);
 console.log(color.gray);
 console.log(color.blue, color.yellow);
 console.log(color.green, color.black);
 // any
-var car = 'Jaguar';
+let car = 'Jaguar';
 console.log(car);
 car = { brand: 'Jaguar', age: 2021 };
 console.log(car);
@@ -60,13 +60,13 @@ function multiply(numA, numB) {
 }
 console.log(multiply(4, 7));
 //function types 
-var calculate;
+let calculate;
 calculate = sayHi;
 calculate();
 calculate = multiply;
 console.log(calculate(5, 6));
 //objects
-var user = {
+let user = {
     names: 'Vitor',
     age: 22
 };

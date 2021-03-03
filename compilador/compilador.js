@@ -1,15 +1,15 @@
 "use strict";
-var channel = 'Gaveta';
-var subscriber = 610234;
-console.log("channel  = " + channel);
+let channel = 'Gaveta';
+let subscriber = 610234;
+console.log(`channel  = ${channel}`);
 function soma(a, b) {
     return a + b;
 }
-var anything;
+let anything;
 anything = 12;
 anything = 'abc';
 function salute(isMorning) {
-    var salute;
+    let salute;
     if (isMorning) {
         salute = 'Good Morning';
     }
